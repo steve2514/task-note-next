@@ -34,6 +34,10 @@ HTML 형태의 과제명을 추가했을 때 화면에 태그가 문자로 나�
 
 브라우저의 실제 Origin 헤더를 포함하면 로컬 Host를 잘못 판별하던 부분을 수정했다. 자동 API 검증에도 같은 조건을 포함했다.
 
+## 공개 저장소 확인
+
+2026년 10월 19일 `https://github.com/steve2514/task-note-next` 공개 저장소에 소스와 기말 개선 계획을 업로드했다. GitHub 화면에서 src·tests·docs와 설정 파일을 확인했고, 인증 없는 GitHub API에서도 private:false를 확인했다. Vercel이 해당 저장소를 Next.js로 인식했고 과제 전용 Hobby 프로젝트를 생성했다.
+
 ## 아직 검증하지 않은 항목
 
-PostgreSQL 실제 연결, GitHub 공개 저장소 접근, Vercel 공개 배포와 배포 환경의 HTTPS·재배포 후 저장 유지는 계정 연결과 실제 배포 후 확인한다. 로컬 빌드와 검증만으로 배포가 완료되었다고 판단하지 않는다.
+PostgreSQL 실제 연결, Vercel 공개 배포와 배포 환경의 HTTPS·재배포 후 저장 유지는 DB 연결과 실제 배포 후 확인한다. 로컬 빌드와 검증만으로 배포가 완료되었다고 판단하지 않는다.
