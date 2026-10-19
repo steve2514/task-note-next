@@ -12,7 +12,7 @@
 
 처음 접속하면 빈 목록이 보이며 직접 과제를 등록할 수 있습니다. 다른 브라우저의 과제는 보이지 않습니다.
 
-중간보고 자료는 공개 배포와 실제 동작 검증을 마친 뒤 작성합니다. 중간 구현 범위와 기말까지의 개선 계획은 [docs/roadmap.md](docs/roadmap.md)에 기록했습니다. 계획한 기능을 구현 완료 기능으로 표시하지 않습니다.
+중간보고 자료에는 공개 배포와 실제 검증 결과를 반영했습니다. 중간 구현 범위와 기말까지의 개선 계획은 [docs/roadmap.md](docs/roadmap.md)에 기록했습니다. 계획한 기능을 구현 완료 기능으로 표시하지 않습니다.
 
 ## 기술 구성
 
@@ -24,7 +24,7 @@
 
 화면은 `src/app/page.tsx`에서 서버 렌더링하고 `src/components/task-dashboard.tsx`에서 사용자 조작을 처리합니다. 서버 렌더링과 Route Handler 모두 `src/lib/db.ts`의 데이터 접근 함수를 사용합니다. 브라우저에서 DB에 직접 접속하지 않습니다.
 
-![Next.js 버전 실제 실행 화면](docs/images/main.png)
+![공개 배포 서비스 실제 실행 화면](docs/images/public-main.png)
 
 ## 로컬 실행
 
