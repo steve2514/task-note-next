@@ -4,7 +4,13 @@
 
 ## 개발 상태
 
-2026년 10월 19일 기준으로 Next.js 버전의 로컬 프로덕션 빌드와 기본 기능을 구현했습니다. 기존 Flask 코드는 사용하지 않습니다. [GitHub 공개 저장소](https://github.com/steve2514/task-note-next)에 소스를 업로드했고 Vercel Hobby 프로젝트를 생성했습니다. Neon PostgreSQL 연결 설정을 진행 중이며 공개 서비스 배포는 아직 완료하지 않았습니다.
+2026년 10월 19일 Next.js 서비스의 공개 배포와 Neon PostgreSQL 연결을 완료했습니다. 로컬과 공개 환경에서 입력 검증·API 통합 테스트가 각각 17개 통과했습니다. 집계에는 통합 검증 상위 테스트 1개가 포함됩니다.
+
+- 공개 서비스: https://task-note-next.vercel.app/
+- 공개 소스: https://github.com/steve2514/task-note-next
+- 배포 구성: Vercel Hobby + Neon Free PostgreSQL
+
+처음 접속하면 빈 목록이 보이며 직접 과제를 등록할 수 있습니다. 다른 브라우저의 과제는 보이지 않습니다.
 
 중간보고 자료는 공개 배포와 실제 동작 검증을 마친 뒤 작성합니다. 중간 구현 범위와 기말까지의 개선 계획은 [docs/roadmap.md](docs/roadmap.md)에 기록했습니다. 계획한 기능을 구현 완료 기능으로 표시하지 않습니다.
 

@@ -7,7 +7,7 @@
 - Neon 데이터베이스: `task-note-next-db` (Free, Washington / iad1)
 - Neon Auth·Realtime 추가 기능은 비활성화했다.
 
-위 자원만 기말 평가 종료 후 정리한다. 공개 서비스 URL과 최종 배포 검증 결과는 실제 배포 후 추가한다.
+공개 서비스는 https://task-note-next.vercel.app/ 이다. 위 자원만 기말 평가 종료 후 정리한다. 검증 기록은 docs/verification.md에 남긴다.
 
 ## 배포 전 준비
 
