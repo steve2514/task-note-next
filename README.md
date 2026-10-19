@@ -90,6 +90,6 @@ Unix 계열에서는 `TEST_BASE_URL=http://127.0.0.1:3000 pnpm test`를 사용�
 
 학습용 익명 세션 서비스입니다. 실제 개인정보나 중요한 비공개 자료는 입력하지 않습니다.
 
-## 공개 배포와 과제 종료 후 삭제
+## 공개 배포
 
-배포 절차와 자원 삭제 방법은 [DEPLOYMENT.md](DEPLOYMENT.md)에 정리했습니다. 배포에는 외부 PostgreSQL이 필요하며, Vercel에서는 DB 환경변수가 없을 때 로컬 SQLite로 대체하지 않습니다. 제출할 정보는 실제 생성된 GitHub 저장소 주소와 공개 서비스 주소입니다.
+배포 절차와 운영 구성은 [DEPLOYMENT.md](DEPLOYMENT.md)에 정리했습니다. 배포에는 외부 PostgreSQL이 필요하며, Vercel에서는 DB 환경변수가 없을 때 로컬 SQLite로 대체하지 않습니다. 제출할 정보는 실제 생성된 GitHub 저장소 주소와 공개 서비스 주소입니다.
