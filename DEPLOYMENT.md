@@ -1,5 +1,14 @@
 # 공개 배포와 종료 절차
 
+## 생성한 과제 전용 자원
+
+- GitHub 공개 저장소: https://github.com/steve2514/task-note-next
+- Vercel 프로젝트: `task-note-next` (steve's projects, Hobby)
+- Neon 데이터베이스: `task-note-next-db` (Free, Washington / iad1)
+- Neon Auth·Realtime 추가 기능은 비활성화했다.
+
+위 자원만 기말 평가 종료 후 정리한다. 공개 서비스 URL과 최종 배포 검증 결과는 실제 배포 후 추가한다.
+
 ## 배포 전 준비
 
 이 프로젝트는 무료 범위의 학습용 배포를 목표로 합니다. 서비스에서 표시하는 현재 요금과 사용량 조건을 확인하고 유료 플랜 전환이나 카드 등록은 진행하지 않습니다. 전용 GitHub 저장소, Vercel 프로젝트와 DB 프로젝트를 사용하여 과제가 끝나면 따로 제거할 수 있게 합니다.
